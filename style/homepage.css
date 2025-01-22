@@ -59,7 +59,7 @@ nav ul li a:hover {
     justify-content: center;
     padding: 0px;
 }
-@media screen and(max-width) {
+@media screen and(max-width:480) {
     .container {
         flex-direction: column;
         align-items: center;
