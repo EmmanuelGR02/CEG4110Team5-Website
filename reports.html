@@ -11,6 +11,23 @@
     <body>
         <!-- Display the header on top of the page -->
         <header></header>
+
+        <!-- Title -->
+        <h1 class="title">Weekly Team Reports</h1>
+        <hr>
+
+        <!-- Main div holding the report and its info -->
+        <div class="weekly_report">
+            <h3>Weekly Team Report #1</h3>
+            <p>Date: Jan 13 to Jan 19</p>
+
+            <!-- pdf preview -->
+            <div class="pdf_preview">
+                <iframe src="weeklyReports/Jan 13 - Jan 19.pdf" frameborder="0"></iframe>
+            </div>
+            <a href="weeklyReports/Jan 13 - Jan 19.pdf" target="_blank">View Full Report</a>
+        </div>
+
         <script>
             document.addEventListener('DOMContentLoaded', function() {
                 // Fetch and insert header
@@ -22,6 +39,5 @@
             });
         </script>
 
-        <h1>Weekly Team Reports</h1>
     </body>
 </html>
