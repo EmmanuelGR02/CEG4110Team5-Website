@@ -42,4 +42,46 @@ nav ul li a:hover {
     justify-content: center;
 }
 
+/********** container style **********/
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
 
+/********** Main div style **********/
+.memberInfo_div {
+    width: 15%;
+    height: auto;
+    border: 2px solid black;
+    background-color: lightgray;
+    justify-content: center;
+    padding: 0px;
+}
+
+.member_img {
+    width: 200px;
+    height: 230px;
+}
+
+.member_name {
+    margin-top: 0px;
+}
+
+.member_major {
+    margin-top: -15px;
+}
+
+.member_role {
+    margin-top: -5px;
+}
+
+.member_skills {
+    margin-top: -5px;
+}
+
+
+.prompt {
+    font-weight: bold;
+}
