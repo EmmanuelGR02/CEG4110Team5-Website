@@ -3,20 +3,40 @@
     <nav>
         <ul> 
             <li><a class="home" href="index.html">
-                <span class="home_text" id="home_text">Home</span>
+                <span class="header_text" id="home_text">Home</span>
             </a></li>
             
             <li><a class="projectOverview" href="projectOverview.html">
-                <span class="projectOverview_text">Project Overview</span>
+                <span class="header_text">Project Overview</span>
             </a></li>
 
             <li><a class="reports" href="reports.html">
-                <span class="reports_text">Reports</span>
+                <span class="header_text">Reports</span>
             </a></li>
 
             <li><a class="softwareDocuments" href="softwareDocuments.html">
-                <span class="softwareDocuments_text">Software Documents</span>
+                <span class="header_text">Software Documents</span>
             </a></li>
         </ul>
     </nav>
+
+    <style>
+        /* Default styles for larger screens */
+        .header_text {
+            font-size: 20px;
+            font-weight: bold;
+            color: black;
+        }
+
+        /* smaller screens */
+        @media (max-width: 480px) {
+            .header_text {
+                font-size: 7px;
+                font-weight: bolder;
+                text-decoration: underline;
+                color: black;
+            }
+        }
+    </style>
+
 </header>
