@@ -59,6 +59,16 @@ nav ul li a:hover {
     justify-content: center;
     padding: 0px;
 }
+@media screen and(max-width) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .memberInfo_div {
+        width: 80%;
+    }
+}
 
 .member_img {
     width: 200px;
