@@ -8,6 +8,37 @@ body {
 }
 
 /********** style for main div and pdf file containers *********/
+.weekly_reports_container {
+    display: flex;
+    gap: 20px; 
+}
+
+.weekly_report {
+    flex: 1; 
+    text-align: center; 
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.pdf_preview iframe {
+    width: 100%; 
+    height: 200px; 
+}
+
+@media (max-width: 480px) {
+    .weekly_reports_container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .weekly_report {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
+
 .weekly_report {
     margin-bottom: 20px;
     padding: 10px;
